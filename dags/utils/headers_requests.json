@@ -1,0 +1,33 @@
+{
+"grupos": {"url": "https://olinda.bcb.gov.br/olinda/servico/Informes_ListaTarifasPorInstituicaoFinanceira/versao/v1/odata/GruposConsolidados?%24format=json",
+                "payload": {},
+                "headers": {
+                    "accept": "application/json;odata.metadata=minimal",
+                    "Cookie": "BIGipServer~was_p_as3~was_p~pool_was_443_p=1020268972.47873.0000; JSESSIONID=0000ZIBZVv-i65m-yBS63Q02yKF:1cn7m3fq4; TS013694c2=012e4f88b3b7dfcbae3fb8d93821dc349fefbab4708efb628594fe4b0489d5530b52387fa40bf07790ba82ba65de827ad5cb48d83b"
+                        }
+    },
+"instituicoes": {"url" : "https://olinda.bcb.gov.br/olinda/servico/Informes_ListaTarifasPorInstituicaoFinanceira/versao/v1/odata/ListaInstituicoesDeGrupoConsolidado(CodigoGrupoConsolidado=@CodigoGrupoConsolidado)?%40CodigoGrupoConsolidado='_%variable#item%_'&%24format=json",
+                "payload": {},
+                "headers": {
+                    "accept": "application/json;odata.metadata=minimal",
+                    "Cookie": "BIGipServer~was_p_as3~was_p~pool_was_443_p=1020268972.47873.0000;JSESSIONID=0000ZIBZVv-i65m-yBS63Q02yKF:1cn7m3fq4; TS013694c2=012e4f88b3ebc3f7a8a8e7566bcb5cdf2d7fcaf37bb3f069dffd2d2798a0ba77ec28ec991b3300bea3bde88f7d082097efa590c57f"
+                        }
+                },
+"ouvidoria": {"url": "https://olinda.bcb.gov.br/olinda/servico/Informes_Ouvidorias/versao/v1/odata/Ouvidorias?%24format=json",
+                "payload": {},
+                "headers": {
+                    "accept": "application/json;odata.metadata=minimal",
+                    "Cookie": "TS01d9825e=012e4f88b3045f1cb7d992090122d4beebbb79f89e6993619433baf4cbd8e4f167dc773716bf343d562bb1a7c3e371b6976d59ffff; dtCookie=2A1064ABE92953DBF4C4B41CF0DB47F2|X2RlZmF1bHR8MQ; BIGipServer~was_p_as3~was_p~pool_was_443_p=4275048876.47873.0000; JSESSIONID=0000qP_y6uEmmrYEnYwOBVNw7LX:1cn7jtfnj; TS013694c2=012e4f88b3045f1cb7d992090122d4beebbb79f89e6993619433baf4cbd8e4f167dc773716bf343d562bb1a7c3e371b6976d59ffff"
+                        }
+                },
+"tarifas":{"url" : "https://olinda.bcb.gov.br/olinda/servico/Informes_ListaTarifasPorInstituicaoFinanceira/versao/v1/odata/ListaTarifasPorInstituicaoFinanceira(PessoaFisicaOuJuridica=@PessoaFisicaOuJuridica,CNPJ=@CNPJ)?%40PessoaFisicaOuJuridica='_%variable#item%_'&%40CNPJ='_%variable#item%_'&%24format=json",
+
+                "payload": {},
+                "headers" : {
+                    "accept": "application/json;odata.metadata=minimal",
+                    "Cookie": "BIGipServer~was_p_as3~was_p~pool_was_443_p=1020268972.47873.0000;JSESSIONID=0000ZIBZVv-i65m-yBS63Q02yKF:1cn7m3fq4; TS013694c2=012e4f88b37f6d17c2ab631046c192d35ee4b999d12b6c5d5e4c1312cd788e5e92e0393267f0262d2a81c6ba91c33d825f445753a0"
+                        }
+                }
+}
+
+                        
