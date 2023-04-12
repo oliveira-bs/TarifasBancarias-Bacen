@@ -6,4 +6,7 @@ O nosso pipeline é orquestrado pelo **Apache Airflow** em conjunto com o sistem
 
 O pipeline consiste em extrair os dados presentes nas APIs do Banco Central do Brasil, realizar as transformações necessárias nas informações fornecidas, realizar a correlação entre os campos devidos nos dados extraídos e armazenar esses dados tanto no **datalake** no formato json *(diretório local ./raw/tales)* quanto em tables via **Postgresql**.
 
+![Screenshot from 2023-04-12 00-39-27](https://user-images.githubusercontent.com/68130436/231344724-5424cd80-fff9-46f7-8313-d32241311774.png)
+
+
 Posteriormente, esses dados finais podem contribuir para analisar as taxas cobradas pelas Instituições Bancárias no país atualmente e verificar qual instituição é mais indicada para um determinado perfil de cliente.
